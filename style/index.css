@@ -1,0 +1,597 @@
+body{
+     font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+.nav-bar{
+    
+    background-color: rgb(11, 11, 11);
+    padding: 15px 0px;
+    
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.nav-bar-item {
+    
+    display: inline;
+    margin:8px;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+a:hover{
+    color: none;
+}
+
+.logo{
+    margin-left :50px;
+}
+.icon{
+    display: none;
+}
+.banner{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.banner-sub-heading{
+    
+    font-size: 55px;
+    margin-bottom: 0;
+}
+.banner-heading-details{
+    
+    font-size: 28px;
+    margin-top: 0;
+}
+.banner-heading-learn{
+    display: inline;
+    margin: 0px 12px 0px 0px;
+}
+    
+.learn{
+    text-decoration: none;
+    border: 2px solid hsl(219, 82%, 62%);
+    background-color: hsl(219, 82%, 62%);
+    border-radius: 25px;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: aliceblue;
+}
+.shop{
+    text-decoration: none;
+    color: hsl(219, 82%, 62%);
+    border: 2px solid hsl(219, 82%, 62%);
+    border-radius: 25px;
+    padding: 8px 15px;
+    font-size: 16px;
+   
+}
+.built{
+    
+    font-size: 20px;
+    background: linear-gradient(90deg, #0090F7 8%, #BA62FC, #F2416B, #F55600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-item-image{
+    margin-top: 40px;
+}
+.banner-college-students{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    height: 580px;
+    color: white;
+}
+.banner-college-students-data{
+    color: black;
+    border: 2px solid aliceblue;
+    background-color: aliceblue;
+    padding-top:10px;
+    width: 50%;
+}
+.heading{
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+.banner-ipad{
+    
+    
+    padding-top: 10px;
+    background-image: linear-gradient(#95cdedc9, white);
+    width:50%
+    
+}
+.banner-ipad-air-logo{
+    width:140px;
+    margin-top: 50px;
+    
+}
+.banner-ipad-air-details{
+    color: black;
+}
+.banner-pro {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    height: 580px;
+    color: white;
+}
+
+.banner-ipad-pro {
+    background-image: url(ipadpro_avail.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 48%;
+    height: 565px;
+    padding: 12px;
+}
+.banner-macbook-pro{
+    background-image: url(macbookpro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 48%;
+    height: 580px;
+    padding: 12px;
+   
+}
+.banner-promo{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    height: 580px;
+    color: white;
+    margin-top: 10px;
+}
+.banner-iphone-tradein{
+    color: black;
+    text-align: center;
+    background-image: url(iphone_tradein.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 35px;
+    background-size: cover;
+    width: 48%;
+    height: 100%;
+    padding: 12px;
+}
+.iphone-tradein{
+    margin-top:40px;
+}
+.banner-airpods{
+    color: aliceblue;
+    text-align: center;
+    background-image: url(promo_airpods_4_avail.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 48%;
+    height: 100%;
+    padding: 12px;
+}
+.head{
+    font-size: 45px;
+    margin-top: 300px;
+
+}
+.products-details{
+
+    color: rgba(0, 0, 0, 0.56);
+    margin:40px 110px;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+}
+.footer{
+    display: flex;
+    justify-content:space-evenly;
+    
+    border-top: 1px solid rgba(0, 0, 0, 0.16);
+    margin: 0px 30px;
+}
+.footer-item{
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 12px;
+    font-weight: 400;
+    margin: 10px;
+    list-style-type: none;
+}
+.footer-heading-item{
+    color: #1d1d1f;
+    font-size: 12px;
+    font-weight: 550;
+}
+.more-way-to-shop{
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 110px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+.privacy-terms{
+    display: flex;
+    justify-content: space-around;
+    margin:20px;
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+    body{
+        width:100%;
+    }
+    .nav{
+        display: none;
+    }
+    .logo {
+        margin: 0 auto;
+        flex: 1 1 100%;
+        text-align: right;
+    }
+    .fa-magnifying-glass
+    .fa-bag-shopping{
+        display: block;
+    }
+    .icon{
+        display: left;
+    }
+    .banner {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .banner > div {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .banner-sub-heading {
+        font-size: 26px;
+    }
+
+    .banner-heading-details {
+        font-size: 16px;
+    }
+
+    .learn,
+    .shop {
+        padding: 6px 12px;
+        font-size: 14px;
+        display: inline-block;
+        margin: 8px 5px;
+    }
+
+    .banner-item-image,
+    .ipad-image,
+    .college-macbook-tab {
+        width: 100% ;
+        height: auto ;
+        max-width: 100%;
+    }
+
+   
+    .banner-college-students
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    .banner-college-students-data,
+    .banner-ipad
+    
+   {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .banner-pro{
+        flex-direction: column;
+        height: 900px;
+    }
+    .banner-ipad-pro,
+    .banner-macbook-pro{
+        width: 100%;
+        height: 450px;
+    }
+    .banner-promo {
+        flex-direction: column;
+        height: 900px;
+    }
+    .banner-iphone-tradein,
+    .banner-airpods {
+        width: 100%;
+        height: 450px;
+    }
+
+    .head {
+        font-size: 26px;
+        margin-top: 100px;
+    }
+    .products-details{
+        margin: 10px;
+    }
+    
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 10px;
+    }
+
+    .footer-item,
+    .footer-heading-item {
+        font-size: 11px;
+    }
+
+    
+    .store-banner-main-heading {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .more-way-to-shop,
+    .privacy-terms {
+        margin: 10px;
+        font-size: 11px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .body {
+        background-color: aliceblue;
+    }
+    .nav-bar{
+        display: flex;
+        padding: 3px;
+        font-size: 10px;
+    }
+    .logo{
+        margin-left: 15px;
+    }
+    .banner-sub-heading{
+    
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    .banner-heading-details{
+    
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .banner-heading-learn{
+        margin: 0px 5px 0px 0px;
+    }
+    
+    .learn{
+        font-size: 15px;
+    }
+    .shop{
+        font-size: 15px;  
+    }
+    .built{
+        font-size: 15px;
+    }
+    .banner-item-image{
+        width:450px;
+        height: 300px;
+    }
+    .banner-college-students{
+        width: 100%;
+       
+    }
+    .banner-college-students-data{
+        
+        width: 48%;
+        
+        padding-top: 0px;
+        margin-bottom: 100px;
+    }
+    .college-macbook-tab{
+        width: 320px;
+        height: 250px;
+        
+    }
+   
+    .heading{
+        margin-top: 50px;
+        
+    }
+    .banner-ipad{
+        width: 48%;
+        
+       
+    }
+    .ipad-image{
+        width : 150px;
+        height : 150px;
+    }
+    
+    .banner-ipad-air-logo{
+        margin-top: 50px;
+    }
+    
+    .banner-ipad-pro{
+       width: 48%;
+      
+       margin-bottom: 5px;
+       
+    }
+    .banner-macbook-pro{
+       width: 48%;
+       
+       margin-bottom: 5px;
+    }
+    .banner-promo{
+        width: 100%;
+        
+    }
+    .banner-iphone-tradein{
+       width: 48%;
+      
+    }
+    .banner-airpods{
+       width: 48%;
+       
+    }
+    .head{
+      font-size: 45px;
+      margin-top: 350px;
+    }
+    .products-details{
+        width: 95%;
+        margin:30px 10px;
+    }
+   
+    .more-way-to-shop{
+        width: 95%;
+        margin:30px 10px;
+    }
+    .privacy-terms{
+        display: block;
+        width: 95%;
+        margin: 10px;
+        line-height: 1.5;
+    }
+}
+
+  @media only screen and (max-width: 1080px) {
+    .body {
+        background-color: aliceblue;
+    }
+    .nav-bar{
+        display: flex;
+        padding: 10px;
+        font-size: 10px;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    .banner-sub-heading{
+    
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    .banner-heading-details{
+    
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .banner-heading-learn{
+        margin: 0px 5px 0px 0px;
+    }
+    
+    .learn{
+        font-size: 15px;
+    }
+    .shop{
+        font-size: 15px;  
+    }
+    .built{
+        font-size: 15px;
+    }
+    .banner-item-image{
+        width:450px;
+        height: 300px;
+    }
+    
+    .banner-college-students-data{
+         height: 450px;
+      
+    }
+    .heading{
+        font-size: 30px;
+        margin-top: 50px;
+        
+    }
+    .banner-ipad{
+       height: 450px;
+    }
+    .banner-ipad-air-logo{
+      width:100px;
+      height:30px
+    }
+    .banner-pro{
+       width: 100%;
+       height:500px;
+    }
+    .banner-ipad-pro{
+       width: 48%;
+       height: 500px;
+       margin-right: 5px;
+       
+    }
+    .banner-macbook-pro{
+       width: 48%;
+       height: 500px;
+       margin-bottom: 10px;
+      
+    }
+    
+    .banner-iphone-tradein{
+       width: 48%;
+       height: 550px;
+       margin-right: 5px;
+    }
+    .banner-airpods{
+       width: 48%;
+       height: 550px;
+       margin-top: 12px;
+       
+    }
+    .head{
+      font-size: 45px;
+      margin-top: 350px;
+    }
+    .products-details{
+        width: 95%;
+        margin:30px 10px;
+    }
+   
+    .more-way-to-shop{
+        width: 95%;
+        margin:30px 10px;
+    }
+    .privacy-terms{
+        display: block;
+        width: 95%;
+        margin: 10px;
+        line-height: 1.5;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .body {
+        background-color: aliceblue;
+    }
+    .banner-college-students,
+    .banner-pro,
+    .banner-promo{
+        width: 100%;
+    }
+    .banner-college-students-data,
+    .banner-ipad,
+    .banner-ipad-pro,
+    .banner-macbook-pro,
+    .banner-iphone-tradein,
+    .banner-airpods 
+    {
+        width:47%;
+    }
+
+    }
+
